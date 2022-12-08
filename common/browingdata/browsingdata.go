@@ -112,3 +112,7 @@ func (d *Data) addSource(Sources []item.Item) {
 		}
 	}
 }
+
+func (d *Data) GetSource() map[item.Item]Source {
+	return d.sources
+}
