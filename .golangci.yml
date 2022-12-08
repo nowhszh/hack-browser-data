@@ -60,7 +60,7 @@ issues:
     - G502
     - G505
   exclude-rules:
-    - path: internal/provider/provider\.go
+    - path: common/provider/provider\.go
       linters:
         - 'unused'
   max-issues-per-linter: 0
