@@ -1,4 +1,4 @@
-module hack-browser-data
+module github.com/nowhszh/hack-browser-data
 
 go 1.19
 
